@@ -14,5 +14,11 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  padding: 1rem;
+}
+/*改变全局的样式*/
+@layer base{ 
+  /*h1 变成如下样式*/
+  h1{
+    @apply font-extrabold text-2xl mb-3
+  }
 }
