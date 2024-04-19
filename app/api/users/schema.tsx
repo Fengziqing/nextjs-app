@@ -4,7 +4,7 @@ import z from 'zod'
 //zod 如何使用schema进行validation
 const schema = z.object({
     name:z.string().min(3),
-    // email:z.string().email(),
+    email:z.string().email()
     // age:z.number()
 })
 
